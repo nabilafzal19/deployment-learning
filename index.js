@@ -5,7 +5,9 @@ const PORT = 4000;
 const app = express();
 
 app.get("/deployed", (req, res) => {
-  res.send("successfully deployed for ci cd with ec2...CHANGES");
+  res.send(
+    "successfully deployed for ci cd with ec2...CHANGES from vscode bro! chill!"
+  );
 });
 
 app.listen(PORT, () => {
